@@ -1,14 +1,15 @@
-import { useEffect, useRef, useState } from 'react';
-import Home from './components/home';
-import Navbar from './components/navbar';
-import Features from './components/features';
-import Award from './components/award';
-import Games from './components/games';
-import About from './components/about';
-import Expierence from './components/expierence';
-import WorkWithUs from './components/workWithUs';
-import Subscribe from './components/subscribe';
-import Footer from './components/footer';
+import Home from "./components/home";
+import Navbar from "./components/navbar";
+import Features from "./components/features";
+import Award from "./components/award";
+import Games from "./components/games";
+import About from "./components/about";
+import Expierence from "./components/expierence";
+import WorkWithUs from "./components/workWithUs";
+import Subscribe from "./components/subscribe";
+import Footer from "./components/footer";
+
+import React from "react";
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
         <div className=" relative max-w-[1440px] w-full mx-auto p-5">
           <WorkWithUs />
           <Subscribe />
-          <Footer/>
+          <Footer />
         </div>
       </div>
     </>

@@ -3,6 +3,8 @@ import { experienceData } from "../assets/dummy"
 import Button from "./button"
 import { variant1, variant2 } from "../utils/motion"
 
+import React from "react";
+
 const Expierence = () => {
   return (
     <div className=" z-10 md:sticky top-10 my-10 flex gap-x-10 gap-y-20 items-center justify-evenly md:justify-between flex-wrap-reverse md:flex-nowrap">
